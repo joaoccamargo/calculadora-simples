@@ -7,7 +7,6 @@ function Calculadora(){
 
     this.cliqueBotoes = () => {
         document.addEventListener('click', e => {
-            e.preventDefault()
             const el = e.target;
 
             if(el.classList.contains('btn-num')){
